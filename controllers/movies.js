@@ -13,7 +13,7 @@ exports.getOneMovie = function(req, res) {
 exports.addOneMovie = function(req, res) {
   knex("movies")
     .insert(req.body)
-    .return("*")
+    .returning("*")
     .then(newMovie => res.json(newMovie));
 };
 

@@ -13,7 +13,7 @@ exports.getOneUser = function(req, res) {
 exports.addOneUser = function(req, res) {
   knex("users")
     .insert(req.body)
-    .return("*")
+    .returning("*")
     .then(newUser => res.json(newUser));
 };
 

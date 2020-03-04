@@ -13,7 +13,7 @@ exports.getOneShowUpdate = function(req, res) {
 exports.addOneShowUpdate = function(req, res) {
   knex("show_updates")
     .insert(req.body)
-    .return("*")
+    .returning("*")
     .then(newShowUpdate => res.json(newShowUpdate));
 };
 
