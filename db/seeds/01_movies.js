@@ -6,166 +6,112 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex("movies").insert([
         {
-          title: "Tempest",
-          genre: "Comedy|Drama",
+          title: "The Irishman",
+          genre: "Crime|Biography|Drama",
           description:
-            "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
-          platform: "Mauris ullamcorper purus sit amet nulla.",
-          image: "http://dummyimage.com/225x109.jpg/dddddd/000000"
+            "In the 1950s, truck driver Frank Sheeran gets involved with Russell Bufalino and his Pennsylvania crime family. As Sheeran climbs the ranks to become a top hit man, he also goes to work for Jimmy Hoffa -- a powerful Teamster tied to organized crime.",
+          platform: "Netflix",
+          image:
+            "https://m.media-amazon.com/images/M/MV5BMGUyM2ZiZmUtMWY0OC00NTQ4LThkOGUtNjY2NjkzMDJiMWMwXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"
         },
         {
-          title: "Slaughter Rule, The",
+          title: "Marriage Story",
           genre: "Drama",
           description:
-            "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
-          platform: "Ut tellus.",
-          image: "http://dummyimage.com/175x106.jpg/dddddd/000000"
+            "A stage director and his actor wife struggle through a gruelling, coast-to-coast divorce that pushes them to their personal and creative extremes.",
+          platform: "Netflix",
+          image:
+            "https://66.media.tumblr.com/81a8bd025987f5357ae3129538a4500a/df0989fbc7cc2463-d7/s540x810/e065c9a4e7d0c48f0b97e85d33bcf21418525492.jpg"
         },
         {
-          title: "The Search for Santa Paws",
-          genre: "Adventure|Children",
+          title: "Us",
+          genre: "Horror|Mystery",
           description:
-            "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-          platform:
-            "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
-          image: "http://dummyimage.com/215x158.jpg/ff4444/ffffff"
+            "A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.",
+          platform: "Hulu|HBO Now",
+          image:
+            "https://m.media-amazon.com/images/M/MV5BODUyODM0NjYyNF5BMl5BanBnXkFtZTgwNjAwMDU5NjM@._V1_SY1000_SX640_AL_.jpg"
         },
         {
-          title: "Inequality for All",
-          genre: "Documentary",
+          title: "AIRPLANE!",
+          genre: "Comedy",
           description:
             "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
-          platform: "Cras pellentesque volutpat dui.",
-          image: "http://dummyimage.com/127x118.jpg/cc0000/ffffff"
+          platform: "Netflix",
+          image:
+            "https://www.gstatic.com/tv/thumb/v22vodart/1671/p1671_v_v8_aj.jpg"
         },
         {
-          title: "Sandglass, The (Sanatorium pod klepsydra)",
-          genre: "Mystery",
+          title: "A League of Their Own",
+          genre: "Comedy-Drama|Sport",
           description:
             "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
-          platform: "Proin at turpis a pede posuere nonummy.",
-          image: "http://dummyimage.com/119x118.jpg/ff4444/ffffff"
+          platform: "Hulu",
+          image:
+            "https://www.gstatic.com/tv/thumb/v22vodart/14086/p14086_v_v8_ak.jpg"
         },
         {
-          title: "Satan Met a Lady",
-          genre: "Comedy|Drama|Mystery",
+          title: "Die Hard",
+          genre: "Thriller|Action|Christmas",
           description:
             "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
-          platform: "Sed ante.",
-          image: "http://dummyimage.com/165x108.jpg/cc0000/ffffff"
+          platform: "Hulu",
+          image:
+            "https://is3-ssl.mzstatic.com/image/thumb/Video118/v4/0b/e4/b9/0be4b9e4-ddb0-c206-6542-6bfe4846986b/pr_source.lsr/268x0w.png"
         },
         {
-          title: "Waterland",
-          genre: "Drama",
+          title: "Zombieland",
+          genre: "Comedy",
           description:
             "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
-          platform: "Nulla nisl.",
-          image: "http://dummyimage.com/184x187.jpg/dddddd/000000"
+          platform: "Amazon Prime($4.99)| YouTube($3.99)",
+          image:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Zombieland-poster.jpg/220px-Zombieland-poster.jpg"
         },
         {
-          title: "Moebius",
-          genre: "Drama",
+          title: "Deadpool",
+          genre: "Action|Comedy|Adventure",
           description:
             "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
           platform: "Donec quis orci eget orci vehicula condimentum.",
-          image: "http://dummyimage.com/235x213.jpg/5fa2dd/ffffff"
+          image:
+            "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
         },
         {
-          title: "Tough Guise: Violence, Media & the Crisis in Masculinity",
-          genre: "Documentary",
-          description:
-            "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
-          platform: "Aenean lectus.",
-          image: "http://dummyimage.com/245x223.jpg/dddddd/000000"
-        },
-        {
-          title: "Four Days in July",
+          title: "The Two Popes",
           genre: "Comedy|Drama",
           description:
-            "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
-          platform: "Vestibulum sed magna at nunc commodo placerat.",
-          image: "http://dummyimage.com/121x209.jpg/ff4444/ffffff"
+            "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+          platform: "Netflix",
+          image:
+            "https://m.media-amazon.com/images/M/MV5BY2RiOTc1YmYtMDk0Yy00ZWI4LTgzN2YtYTg2ZDZmOGIwNTA1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
         },
         {
-          title: "Hopscotch",
+          title: "Her Smell",
+          genre: "Music|Drama",
+          description:
+            "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+          platform: "HBO Now|Hulu",
+          image:
+            "https://www.gstatic.com/tv/thumb/v22vodart/16645992/p16645992_v_v8_aa.jpg"
+        },
+        {
+          title: "Booksmart",
           genre: "Comedy",
           description:
             "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
-          platform: "In hac habitasse platea dictumst.",
-          image: "http://dummyimage.com/147x165.jpg/ff4444/ffffff"
+          platform: "Hulu",
+          image:
+            "https://m.media-amazon.com/images/M/MV5BMjEzMjcxNjA2Nl5BMl5BanBnXkFtZTgwMjAxMDM2NzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
         },
         {
-          title: "Chained",
-          genre: "Horror|Thriller",
+          title: "Amazing Grace",
+          genre: "Documentary|Music",
           description:
             "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
-          platform: "Aliquam quis turpis eget elit sodales scelerisque.",
-          image: "http://dummyimage.com/168x231.jpg/ff4444/ffffff"
-        },
-        {
-          title: "Assault, The (Aanslag, De)",
-          genre: "Drama|Romance|War",
-          description:
-            "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
-          platform:
-            "Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
-          image: "http://dummyimage.com/243x227.jpg/cc0000/ffffff"
-        },
-        {
-          title: "Robot Monster",
-          genre: "Horror|Sci-Fi",
-          description:
-            "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
-          platform: "Aenean sit amet justo.",
-          image: "http://dummyimage.com/235x168.jpg/cc0000/ffffff"
-        },
-        {
-          title: "Suspicious River",
-          genre: "Drama",
-          description:
-            "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
-          platform: "Morbi non lectus.",
-          image: "http://dummyimage.com/137x124.jpg/cc0000/ffffff"
-        },
-        {
-          title: "Plague Dogs, The",
-          genre: "Adventure|Animation|Drama",
-          description:
-            "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
-          platform: "Duis at velit eu est congue elementum.",
-          image: "http://dummyimage.com/246x239.jpg/5fa2dd/ffffff"
-        },
-        {
-          title: "Ida",
-          genre: "Drama",
-          description:
-            "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
-          platform: "Quisque id justo sit amet sapien dignissim vestibulum.",
-          image: "http://dummyimage.com/127x111.jpg/ff4444/ffffff"
-        },
-        {
-          title: "Hound of the Baskervilles, The",
-          genre: "Comedy|Crime|Mystery",
-          description:
-            "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
-          platform: "Sed vel enim sit amet nunc viverra dapibus.",
-          image: "http://dummyimage.com/119x221.jpg/cc0000/ffffff"
-        },
-        {
-          title: "Gregory's Girl",
-          genre: "Comedy|Romance",
-          description:
-            "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
-          platform: "Morbi quis tortor id nulla ultrices aliquet.",
-          image: "http://dummyimage.com/229x175.jpg/ff4444/ffffff"
-        },
-        {
-          title: "Mystery of Picasso, The (Le mystère Picasso)",
-          genre: "Documentary",
-          description:
-            "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
-          platform: "Nullam molestie nibh in lectus.",
-          image: "http://dummyimage.com/226x131.jpg/dddddd/000000"
+          platform: "Hulu",
+          image:
+            "https://m.media-amazon.com/images/M/MV5BODQzNTMyNTY2NF5BMl5BanBnXkFtZTgwNDM5MTg1NzM@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
         }
       ]);
     });

@@ -19,7 +19,7 @@ exports.addOneMovie = function(req, res) {
 
 exports.updateOneMovie = function(req, res) {
   knex("movies")
-    .movies({
+    .update({
       ...req.body,
       updated_at: new Date()
     })
